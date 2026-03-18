@@ -1,0 +1,14 @@
+function solve(x, y):
+    jika (x,y) adalah tujuan:
+        return true
+
+    jika posisi valid:
+        tandai sebagai jalan
+
+        untuk setiap arah:
+            jika solve(next):
+                return true
+
+        hapus tanda (backtrack)
+
+    return false
